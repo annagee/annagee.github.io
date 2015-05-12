@@ -1,0 +1,20 @@
+
+
+
+body{
+
+  background-image: url("../images/chalkboard.jpg");
+  background-repeat: repeat-x;
+  margin: 20px;
+  padding: 50px;
+  color: white;
+  font-family: BlackBoard;
+  font-weight: bold;
+  font-size: 170px;
+
+
+.table{
+  float: centre;
+  border-color: white;
+
+}
