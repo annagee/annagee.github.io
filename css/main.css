@@ -4,17 +4,35 @@
 body{
 
   background-image: url("../images/chalkboard.jpg");
-  background-repeat: repeat-x;
+  /*background-repeat: repeat-x;*/
+  background-size: 100%;  
   margin: 20px;
   padding: 50px;
   color: white;
   font-family: BlackBoard;
   font-weight: bold;
   font-size: 170px;
-
-
-.table{
-  float: centre;
+ }  
+/*div{
+  position: fixed;
+  padding:50%;*/
+  /*top: 50%;
+  left: 50%;*/
+ /* margin-top: -50px;
+  margin-left: -100px;*/
+/*}*/
+/*
+table{
+  text-align: centre;
   border-color: white;
 
+}*/
+
+span{
+  float: centre;
+
+}
+#1{
+  border -right: solid; white;
+  border-bottom: solid;
 }
