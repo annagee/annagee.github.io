@@ -4,56 +4,49 @@
 body{
 
   background-image: url("../images/chalkboard.jpg");
-  /*background-repeat: repeat-x;*/
   background-size: 100%;  
-  /*margin: 20px;
-  padding: 50px;*/
   color: white;
-  font-family: BlackBoard;
-  /*display:inline-block;*/
-  
+  font-family: BlackBoard; 
  }  
+
+ h1{
+  position: relative;
+  margin-top: 10px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  font-size: 100px;
+  text-align: center;
+ }
 .game{
   position: relative;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   font-size: 170px;
   font-weight: bold;
-  /*display: inline-table;*/
-  /*border-width: 5px;*/
-  /*border-color: white;*/
-  /*border-style: solid;*/
-  /*border-bottom: 5px solid white;*/
+  b/*order: 5px solid white;*/
 }
-
-  /*top: 50%;
-  left: 50%;*/
- /* margin-top: -50px;
-  margin-left: -100px;*/
-/*}*/
-
-/*table{
-  text-align: centre;
-  border-color: white;
-  algin:centre;
-
-}*/
-
 *tr {
   border-bottom: solid 1px white;
 }
   
+
+ .square{
+  border-bottom: 1px solid white; 
+  border-right:1px solid white;
+ } 
 /*#1{
   border-right: 5px solid white;
   border-bottom: 5px solid white;
 }*//*/
 */
 button {
-  align:right;
-  font-size: 20px;
+ position: relative;
+  font-size: 30px;
   background-image: url("../images/chalkboard.jpg");
   border: 1px white solid;
-
-
-
+  margin-right: 10px;
+  margin-left: 200px
+  align: left;
 }
