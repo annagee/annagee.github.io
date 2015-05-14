@@ -33,7 +33,7 @@ $(".square").on("click", function() {
     for (var i = 0; i< winningCombinations.length;  i++) {
      var winnerExists = findingWinner(sorted, winningCombinations[i])
         if(winnerExists === true){ 
-        alert(currentPlayer +' is winner');
+        $(".result").text(currentPlayer +' is winner')
     }
     };
     };
@@ -41,44 +41,41 @@ $(".square").on("click", function() {
         console.log(array1)
         console.log(array2)
         for (var i = 0; i < array2.length; i++) {
-          if ($.inArray(array2[i], array1) !== -1 && $.inArray(array2[i+1], array1) !== -1  && $.inArray(array2[i+2], array1) !== -1){
-            return true  
+        if ($.inArray(array2[i], array1) !== -1 && $.inArray(array2[i+1], array1) !== -1  && $.inArray(array2[i+2],array1) !== -1){
+          return true  
         }
-       }
-        return false
-      }
-        if (array1.length >= 4){
-          $("sorted").console.log("Its a draw");
+          if (array1.length >= 5){
+          // $("result").
+          console.log("Its a draw");
           return true
-         console.log("Its a draw");
+       }
+          return false
+      }
+      
+         // console.log("Its a draw");
 
     
 
         }
 
-         $("#play").on("click",function() {
+        function newGame (){
+          $.(reset).$("#play").on("click",function() {
          if( lastMove === "X") {
          $(this).text('O');
           lastMove = "O";
           var id = Number(this.id);
           oMoves.push(id);
           checkWinner(oMoves, "Player O");
-          $(this).unbind();
+          $(this).off();
     }else {
          $(this).text('X');
          lastMove = "X";
          var id = Number(this.id);
          xMoves.push(id);
         checkWinner(xMoves, "Player X"); 
-        $(this).unbind();    
+        $(this).off();    
       }
-    });
-
-
-
-
-          
-          } 
+    })
 
 
         
