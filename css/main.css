@@ -25,17 +25,22 @@ body{
   margin-right: auto;
   font-size: 170px;
   font-weight: bold;
+  height: 50px;
   b/*order: 5px solid white;*/
 }
-*tr {
+/**tr {
   border-bottom: solid 1px white;
 }
-  
+  */
 
- .square{
+/* .square{
   border-bottom: 1px solid white; 
   border-right:1px solid white;
- } 
+ } */
+ #1{
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+ }
 /*#1{
   border-right: 5px solid white;
   border-bottom: 5px solid white;
@@ -48,5 +53,4 @@ button {
   border: 1px white solid;
   margin-right: 10px;
   margin-left: 200px
-  align: left;
 }
