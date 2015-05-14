@@ -6,33 +6,54 @@ body{
   background-image: url("../images/chalkboard.jpg");
   /*background-repeat: repeat-x;*/
   background-size: 100%;  
-  margin: 20px;
-  padding: 50px;
+  /*margin: 20px;
+  padding: 50px;*/
   color: white;
   font-family: BlackBoard;
-  font-weight: bold;
-  font-size: 170px;
+  /*display:inline-block;*/
+  
  }  
-/*div{
-  position: fixed;
-  padding:50%;*/
+.game{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 170px;
+  font-weight: bold;
+  /*display: inline-table;*/
+  /*border-width: 5px;*/
+  /*border-color: white;*/
+  /*border-style: solid;*/
+  /*border-bottom: 5px solid white;*/
+}
+
   /*top: 50%;
   left: 50%;*/
  /* margin-top: -50px;
   margin-left: -100px;*/
 /*}*/
-/*
-table{
+
+/*table{
   text-align: centre;
   border-color: white;
+  algin:centre;
 
 }*/
 
-span{
-  float: centre;
-
+*tr {
+  border-bottom: solid 1px white;
 }
-#1{
-  border -right: solid; white;
-  border-bottom: solid;
+  
+/*#1{
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}*//*/
+*/
+button {
+  align:right;
+  font-size: 20px;
+  background-image: url("../images/chalkboard.jpg");
+  border: 1px white solid;
+
+
+
 }
