@@ -38,7 +38,12 @@ playGame();
       if(winnerExists === true){
       $(".result").text(currentPlayer +' is winner')
       }
-      };
+      // };
+
+      // if (sorted.length >= 5){
+      // $(".result").text("Its a draw");
+      // return true
+    }
      };
 
     function findingWinner (array1, array2){
@@ -47,7 +52,7 @@ playGame();
       return true  
       }
       if (array1.length >= 5){
-      console.log("Its a draw");
+      $(".result").text("Its a draw");
       return true
       }
       return false
@@ -57,6 +62,7 @@ playGame();
     function newGame (){
       xMoves = [];
       oMoves = [];
+      $(".result").empty();
       $(".square").html('?');
   
     }
@@ -65,4 +71,5 @@ playGame();
       newGame();
       playGame();
     })
+// };
 });
