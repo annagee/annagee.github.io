@@ -38,11 +38,7 @@ playGame();
       if(winnerExists === true){
       $(".result").text(currentPlayer +' is winner')
       }
-      // };
-
-      // if (sorted.length >= 5){
-      // $(".result").text("Its a draw");
-      // return true
+  
     }
      };
 
@@ -51,12 +47,15 @@ playGame();
       if ($.inArray(array2[i], array1) !== -1 && $.inArray(array2[i+1], array1) !== -1  && $.inArray(array2[i+2],array1) !== -1){
       return true  
       }
-      if (array1.length >= 5){
-      $(".result").text("Its a draw");
-      return true
       }
-      return false
-      }
+      // if ((array1.length >= 5) {
+      // $(".result").text("Its a draw");
+      // return true
+      // //  
+      // // return false
+      // }
+      // return false
+      // }
     }
 
     function newGame (){
@@ -71,5 +70,5 @@ playGame();
       newGame();
       playGame();
     })
-// };
-});
+
+    });

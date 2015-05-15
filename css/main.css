@@ -3,10 +3,15 @@
 
 body{
   background-image: url("../images/chalkboard.jpg");
-  background-size: 100%;  
-  color: white;
+  background-size: 100%; 
+ font-family: 'Romanesco', cursive;
   font-family: BlackBoard; 
+
  }  
+
+ .content{
+  display: inline-block;
+ }
 
  h1{
   position: relative;
@@ -14,6 +19,7 @@ body{
   margin-right: 70px;
   margin-left: 70px;
   font-size: 100px;
+  color:white; 
   text-align: center;
  }
 .game{
@@ -23,22 +29,26 @@ body{
   margin-right: auto;
   font-size: 170px;
   font-weight: bold;
+  color: white;
   height: 50px;
 }
 
  
- .square #1{
+/* .square {
   border-right: 5px solid white;
   border-bottom: 5px solid white;
-}
+}*/
 .result{
   position: relative;
-  font-size: 30px;
+  font-size: 50px;
+  color: pink;
+  text-align: center;
 }
 
 button {
  position: relative;
   font-size: 30px;
+  color: white;
   background-image: url("../images/chalkboard.jpg");
   border: 1px white solid;
   }
