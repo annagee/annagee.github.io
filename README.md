@@ -1,4 +1,5 @@
 
+
 Tic Tac Toe - User Instructions
 ===============================
 - Player 1 clicks on '?' using mouse to reveal an 'X'.
@@ -20,3 +21,5 @@ Tic Tac Toe - The Game Rules
 - A piece may be place in an empty space.
 - A player wings by being the fist to connect a line of friendly pieces from one side or conrer of the board to the other.
 - The game ends when either one player wins or it is no longer pissibe for a player to wint(in which case the result is a draw).
+=======
+
